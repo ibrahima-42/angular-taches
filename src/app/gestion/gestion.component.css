@@ -1,0 +1,156 @@
+/* Global Container Styling */
+.gestions {
+  width: 400px;
+  /* margin: auto; */
+  margin-top: 30px;
+  margin-left: 281px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.title h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* Tasks Container */
+.taches {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.taches h2 {
+  color: #444;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+/* Task List Styling */
+#ul-tache {
+  list-style-type: none;
+  padding: 0;
+}
+
+#ul-tache li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+#ul-tache li:hover {
+  background-color: #f5f5f5;
+}
+
+#ul-tache li p {
+  margin: 0;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+/* Completed Task Styling */
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* Delete Button Styling */
+#ul-tache li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ff4d4d;
+  transition: color 0.3s ease;
+}
+
+#ul-tache li button:hover {
+  color: #ff1a1a;
+}
+
+/* Add Task Section */
+.ajout {
+  display: flex;
+  margin-top: 20px;
+}
+
+.ajout input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.ajout button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ajout button:hover {
+  background-color: #45a049;
+}
+
+/* Empty Task List Message */
+.taches p {
+  color: #888;
+  text-align: center;
+  font-style: italic;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.option button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+#all {
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#done {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.but {
+  display: flex;
+  gap: 5px;
+}
